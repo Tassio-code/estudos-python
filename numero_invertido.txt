@@ -1,0 +1,8 @@
+numero=int(input("Digite um número no formato DU: "))
+
+dezena = numero//10
+unidade=numero%10
+
+numero_invertido= (unidade*10)+dezena
+
+print("Número invertido:",numero_invertido)

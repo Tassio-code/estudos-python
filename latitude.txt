@@ -1,0 +1,10 @@
+latitude=int(input("Latitude: "))
+
+graus=latitude//10000
+
+minutos=(latitude%10000)//100
+
+segundos=latitude%100
+print("Graus: ",graus)
+print("Minutos: ", minutos)
+print("Segundos: ",segundos)

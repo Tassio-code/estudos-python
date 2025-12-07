@@ -1,0 +1,12 @@
+tempo=float(input("Tempo gasto (horas): "))
+
+velocidade=float(input("Velocidade média (km/h): "))
+
+distancia = tempo*velocidade
+
+litros_utilizados=distancia / 12
+
+print("velocidade média: ", velocidade," km/h")
+print("Tempo gasto na viageem: ", tempo,"horas")
+print("distancia", distancia,"Km")
+print("Quantidade de litros utilizados",litros_utilizados,"litros")
