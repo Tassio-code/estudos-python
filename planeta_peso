@@ -1,0 +1,24 @@
+peso_terra = float(input("Digite o peso na Terra (kg): "))
+
+print("Escolha o planeta pelo código:")
+print("1 - Mercúrio")
+print("2 - Vênus")
+print("3 - Marte")
+print("4 - Júpiter")
+
+codigo = int(input("Digite o código do planeta: "))
+
+if codigo == 1:
+    peso_planeta = peso_terra * 0.37
+    print("Peso em Mercúrio:", peso_planeta, "kg")
+elif codigo == 2:
+    peso_planeta = peso_terra * 0.88
+    print("Peso em Vênus:", peso_planeta, "kg")
+elif codigo == 3:
+    peso_planeta = peso_terra * 0.38
+    print("Peso em Marte:", peso_planeta, "kg")
+elif codigo == 4:
+    peso_planeta = peso_terra * 2.64
+    print("Peso em Júpiter:", peso_planeta, "kg")
+else:
+    print("Opção inválida.")

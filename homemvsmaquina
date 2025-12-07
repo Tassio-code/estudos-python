@@ -1,0 +1,33 @@
+import random
+
+
+opcao = input("Digite 'p' para par ou 'i' para ímpar: ")
+
+if (opcao != 'p') and (opcao != 'i'):
+    print("Opção inválida.")
+else:
+   
+    numero_usuario = int(input("Digite um número entre 0 e 10: "))
+
+    if (numero_usuario < 0) or (numero_usuario > 10):
+        print("Número inválido.")
+    else:
+        
+        numero_maquina = random.randint(0, 10)
+        print("Número da máquina:", numero_maquina)
+
+        
+        soma = numero_usuario + numero_maquina
+        print("Soma dos números:", soma)
+
+        
+        if soma % 2 == 0:
+            if opcao == 'p':
+                print("Usuário ganhou!")
+            else:
+                print("Máquina ganhou!")
+        else:
+            if opcao == 'i':
+                print("Usuário ganhou!")
+            else:
+                print("Máquina ganhou!")

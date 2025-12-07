@@ -1,0 +1,14 @@
+import random
+sorteado = random.randint(1, 6)
+
+numero=int(input("Digfite um número entre 1 e 6: "))
+
+if(numero < 1) or (numero > 6):
+    print("Número inválido")
+
+else:
+    print("O numero sorteado foi:",sorteado)
+    if(numero==sorteado):
+        print(" PARABENS, Voce acertou o número sorteado!!!")
+    else:
+     print("Voce não acertou o número sorteado.")

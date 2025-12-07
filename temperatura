@@ -1,0 +1,9 @@
+temperatura= int(input("Digite a temperatura em graus Celsius: "))
+
+if (temperatura < 5):
+    print("Frio")
+else:
+    if(temperatura <= 30):
+        print("Moderado")
+    else:
+        print("Quente")

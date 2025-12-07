@@ -1,0 +1,12 @@
+import random
+
+numero= random.randint(1,100)
+
+print("Numero sorteado:",numero)
+if( numero <= 33):
+    print("Você ganhou um prêmio de bronze!")
+else:
+    if(numero<=66):
+        print("Você ganhou um prêmio de prata!")
+    else:
+     print("Você ganhou um prêmio de ouro!")

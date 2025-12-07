@@ -1,0 +1,11 @@
+import random
+
+previsao=random.randint(1,3)
+
+if(previsao == 1):
+    print("Previsão do tempo: Ensolarado")
+else:
+    if(previsao == 2):
+     print("Previsão do tempo: Nublado")
+    else:
+        print("Previsão do tempo: Chuvoso"

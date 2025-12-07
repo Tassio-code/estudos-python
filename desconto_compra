@@ -1,0 +1,19 @@
+valor=int(input("Digite o valor da compra: "))
+
+if(valor < 100):
+        desconto = valor * 0.05
+        valor_final = valor - desconto
+        print ("Desconto de 5%")
+        print("Valor final da compra R$", valor_final)
+
+else:
+    if(valor <= 500):
+        desconto = valor * 0.10
+        valor_final = valor - desconto
+        print("Desconto de 10%")
+        print("Valor final da compra: R$", valor_final)
+    else:
+        desconto = valor * 0.15
+        valor_final = valor - desconto
+        print("Desconto de 15%")
+        print("Valor final da compra: R$", valor_final)

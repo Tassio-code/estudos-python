@@ -1,0 +1,33 @@
+num_aluno = int(input("Digite o número de identificação do aluno: "))
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+ME = float(input("Digite a média dos exercícios: "))
+nota_al
+MA = (nota1 + nota2*2 + nota3*3 + ME) / 7
+
+
+if MA >= 90:
+    conceito = 'A'
+elif MA >= 75:
+    conceito = 'B'
+elif MA >= 60:
+    conceito = 'C'
+elif MA >= 40:
+    conceito = 'D'
+else:
+    conceito = 'E'
+
+
+if (conceito == 'A') or (conceito == 'B') or (conceito == 'C'):
+    
+    status = "Aprovado"
+else:
+    status = "Reprovado"
+
+print("\nNúmero do aluno:", num_aluno)
+print("Notas:", nota1, nota2, nota3)
+print("Média dos exercícios:", ME)
+print("Média de aproveitamento:", MA)
+print("Conceito:", conceito)
+print("Status:", status)

@@ -1,0 +1,27 @@
+import random
+
+sorteio = random.randint(1,8)
+
+if(sorteio==1):
+    print("Sim.")
+    
+elif(sorteio==2):
+    print("Não.")
+    
+elif(sorteio==3):
+    print("Provavelmente sim.")
+
+elif(sorteio==4):
+    print("Provavelmente não.")
+
+elif(sorteio==5):
+    print("Não posso prever agora.")
+    
+elif(sorteio==6):
+    print("Concentre-se e pergunte novamente.")
+    
+elif(sorteio==7):
+    print("Melhor não te dizer agora.")
+    
+else:
+    print("Pergunte novamente mais tarde.")

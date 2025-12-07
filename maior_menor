@@ -1,0 +1,28 @@
+A = int(input("Digite o valor de A: "))
+B = int(input("Digite o valor de B: "))
+C = int(input("Digite o valor de C: "))
+D = int(input("Digite o valor de D: "))
+
+
+maior = A
+menor = A
+
+
+if (B > C) and (B > D) and (B > A):
+    maior = B
+elif (C > B) and (C > D) and (C > A):
+    maior = C
+elif (D > B) and (D > C) and (D > A):
+    maior = D
+
+
+if (B < C) and (B < D) and (B < A):
+    menor = B
+elif (C < B) and (C < D) and (C < A):
+    menor = C
+elif (D < B) and (D < C) and (D < A):
+    menor = D
+
+
+print("Maior valor:", maior)
+print("Menor valor:", menor)

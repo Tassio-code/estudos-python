@@ -1,0 +1,9 @@
+idade=int(input("Digite a idade: "))
+
+if (idade < 12):
+    print("ela é uma criança.")
+else:
+    if (idade <=18):
+        print("É um adolescente.")
+    else:
+     print("É um adulto.")
